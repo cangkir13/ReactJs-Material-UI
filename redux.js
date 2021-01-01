@@ -25,7 +25,7 @@ const conterState = (state= stateServer, action) => {
 
 let store = createStore(conterState)
 
-// console.log(store)
+console.log(store)
 // console.log(store.getState());
 store.subscribe(() => {
     console.log(store.getState())
